@@ -3,7 +3,7 @@ let memories = {}; // stores memory names and values
 let lastCalculatedValue = 0; // keeps track of the result of the last calculation
 
 // Prompts and alert messages --------------------------------------------------------------------------------------------------------------------------------------------------
-const mainPrompt = "Introduza um comando: ";
+const mainPrompt = `Introduza um comando: (Insere "A" Para Ajuda.)`;
 const exitMessage = "Aplicacao terminada. Ate a proxima.";
 const help = `VM - Consultar o valor da memoria
 LM - Indicar o nome das memorias
